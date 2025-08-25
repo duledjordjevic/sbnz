@@ -211,7 +211,8 @@ Ako košnica beleži stabilan rast mase (pozitivan weightRate), spoljna temperat
 Sistem prati kada matica nije prisutna u košnici (`queenPresent = false`), ako odsustvo traje duže od zadatog praga, smatra se da je matica možda poginula ili izbačena od strane društva. U tom slučaju sistem šalje upozorenje pčelaru da proveri stanje pčelinjeg društva.
 ### Backward chaining 
 Predstavljen kroz primer dijagnostikovanja ispravnosti sistema - sistem (košnica) se smatra ispravnim ako su svi senzori i aktuatori ispravni. 
-![[backward.png]]
+<img width="860" height="388" alt="image" src="https://github.com/user-attachments/assets/9a0adc53-cab9-40e3-92a3-9496882aae98" />
+
 ### Template
 Parametrizacija pravila pomoću tabela, gde se pragovi i opsezi za temperaturu, vlagu, prinos i energiju košnice učitavaju direktno iz odgovarajućeg reda tabele.
 
